@@ -1,5 +1,5 @@
 # 💫 About Me:
-👋 Hey, I’m Saad<br><br>CS student building cool stuff in C++ and messing with game dev, web dev, and anything that seems fun enough to break.<br><br>🔥 Current Focus<br>C++ DSA<br>PHP | NODE<br>WordPress + frontend experiments<br><br>🛠️ Stack<br><br>C++ | SFML | HTML/CSS | JS | WordPress | Git } PHP | NODE.JS<br><br>🎯 Goals<br><br>Build Projects. Ship em. Level up daily.
+👋 Hey, I’m Saad<br><br>CS student building cool stuff in C++ and messing with game dev, web dev, and anything that seems fun enough to break.<br><br>🔥 Current Focus<br>C++ DSA<br>PHP | NODE<br>WordPress + frontend experiments<br><br>🛠️ Stack<br><br>C++ | SFML | HTML/CSS | JS | WordPress | Git | PHP | NODE.JS<br><br>🎯 Goals<br><br>Build Projects. Ship em. Level up daily.
 
 
 ## 🌐 Socials:
