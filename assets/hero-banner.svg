@@ -1,0 +1,136 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070B"/>
+      <stop offset="0.55" stop-color="#070A12"/>
+      <stop offset="1" stop-color="#0A0E1A"/>
+    </linearGradient>
+
+    <radialGradient id="radialGlow" cx="0.82" cy="0.42" r="0.65">
+      <stop offset="0" stop-color="#2DE1FC" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2DE1FC" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#2DE1FC" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+
+    <filter id="glowCyan" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowSoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="frameClip">
+      <rect x="1" y="1" width="1198" height="418" rx="14"/>
+    </clipPath>
+
+    <style>
+      .mono { font-family: 'JetBrains Mono','SF Mono',Consolas,monospace; }
+      .eyebrow { fill:#5FE3FF; font-size:13px; letter-spacing:5px; opacity:0.85; }
+      .dim { fill:#6B7690; font-size:12px; letter-spacing:2px; }
+      .title { fill:#EAF2FF; font-family:'Segoe UI',Arial,sans-serif; font-weight:800; font-size:74px; letter-spacing:6px; }
+      .titleAccent { fill:#2DE1FC; }
+      .sub { fill:#B9C6DE; font-size:16px; letter-spacing:0.5px; }
+      .chip { fill:#8FA0BE; font-size:12.5px; letter-spacing:1.5px; }
+      .chipStrong { fill:#DCE6F5; font-size:12.5px; letter-spacing:1.5px; }
+      @keyframes blink { 0%,45%{opacity:1;} 50%,100%{opacity:0;} }
+      .cursor { animation: blink 1.1s steps(1) infinite; }
+      @keyframes sweep { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      .sweepGroup { transform-origin: 1012px 168px; animation: sweep 5s linear infinite; }
+      @keyframes scan { 0% { transform: translateY(0); opacity:0; } 6% { opacity:0.55; } 50% { opacity:0.55; } 94% { opacity:0; } 100% { transform: translateY(392px); opacity:0; } }
+      .scanline { animation: scan 4.5s ease-in-out infinite; }
+      @keyframes pulseDot { 0%,100% { opacity:1; } 50% { opacity:0.35; } }
+      .statusDot { animation: pulseDot 1.8s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect x="0" y="0" width="1200" height="420" fill="url(#bgGrad)"/>
+    <rect x="0" y="0" width="1200" height="420" fill="url(#grid)"/>
+    <rect x="0" y="0" width="1200" height="420" fill="url(#radialGlow)"/>
+
+    <!-- scan line -->
+    <rect class="scanline" x="0" y="0" width="1200" height="2.5" fill="#2DE1FC"/>
+
+    <!-- corner brackets -->
+    <g stroke="#2DE1FC" stroke-width="1.6" stroke-opacity="0.75">
+      <path d="M22 46 L22 22 L46 22"/>
+      <path d="M1154 22 L1178 22 L1178 46"/>
+      <path d="M22 374 L22 398 L46 398"/>
+      <path d="M1154 398 L1178 398 L1178 374"/>
+    </g>
+
+    <!-- eyebrow -->
+    <text x="60" y="70" class="mono eyebrow">SYSTEM.BOOT :: IDENTITY MODULE</text>
+    <line x1="60" y1="84" x2="360" y2="84" stroke="#2DE1FC" stroke-opacity="0.35"/>
+
+    <!-- title -->
+    <text x="58" y="200" class="title" filter="url(#glowCyan)">GARFIELD<tspan class="titleAccent">.OS</tspan></text>
+
+    <!-- subtitle typed line -->
+    <text x="60" y="240" class="mono sub">&gt; compiling firmware, storefronts &amp; interfaces since 2022<tspan class="cursor">_</tspan></text>
+
+    <!-- role tags -->
+    <g class="mono" font-size="12.5" letter-spacing="1.5">
+      <rect x="60" y="264" width="168" height="30" rx="15" fill="#0E1420" stroke="#2DE1FC" stroke-opacity="0.4"/>
+      <text x="80" y="283" class="chipStrong">CS STUDENT</text>
+
+      <rect x="238" y="264" width="206" height="30" rx="15" fill="#0E1420" stroke="#7C5CFF" stroke-opacity="0.5"/>
+      <text x="258" y="283" fill="#C9BBFF">EMBEDDED SYSTEMS</text>
+
+      <rect x="454" y="264" width="176" height="30" rx="15" fill="#0E1420" stroke="#FFB000" stroke-opacity="0.5"/>
+      <text x="474" y="283" fill="#FFD98F">SHOPIFY DEV</text>
+    </g>
+
+    <!-- radar dial -->
+    <g transform="translate(1012,168)">
+      <circle r="112" fill="none" stroke="#2DE1FC" stroke-opacity="0.18"/>
+      <circle r="82" fill="none" stroke="#2DE1FC" stroke-opacity="0.22"/>
+      <circle r="50" fill="none" stroke="#2DE1FC" stroke-opacity="0.3"/>
+      <g stroke="#2DE1FC" stroke-opacity="0.28">
+        <line x1="-112" y1="0" x2="112" y2="0"/>
+        <line x1="0" y1="-112" x2="0" y2="112"/>
+      </g>
+      <g class="mono" font-size="9.5" fill="#5FE3FF" opacity="0.7">
+        <text x="-6" y="-120" text-anchor="middle">N</text>
+        <text x="-6" y="130" text-anchor="middle">S</text>
+        <text x="118" y="4" text-anchor="middle">E</text>
+        <text x="-128" y="4" text-anchor="middle">W</text>
+      </g>
+    </g>
+    <g class="sweepGroup" filter="url(#glowSoft)">
+      <path d="M1012,168 L1012,56 A112,112 0 0 1 1092,96 Z" fill="#2DE1FC" fill-opacity="0.10"/>
+      <line x1="1012" y1="168" x2="1012" y2="56" stroke="#5FE3FF" stroke-width="1.6"/>
+    </g>
+    <circle cx="1012" cy="168" r="4" fill="#5FE3FF" filter="url(#glowSoft)"/>
+    <text x="1012" y="234" text-anchor="middle" class="mono" font-size="11" fill="#5FE3FF" letter-spacing="2">TRACKING</text>
+
+    <!-- bottom status bar -->
+    <line x1="0" y1="360" x2="1200" y2="360" stroke="#2DE1FC" stroke-opacity="0.18"/>
+    <g class="mono">
+      <circle class="statusDot" cx="62" cy="388" r="4" fill="#34E89E"/>
+      <text x="76" y="392" class="chip">STATUS: <tspan class="chipStrong">ONLINE</tspan></text>
+
+      <line x1="230" y1="376" x2="230" y2="400" stroke="#2A3242"/>
+      <text x="250" y="392" class="chip">BASE: <tspan class="chipStrong">RAWALPINDI, PK</tspan></text>
+
+      <line x1="470" y1="376" x2="470" y2="400" stroke="#2A3242"/>
+      <text x="490" y="392" class="chip">BUILD: <tspan class="chipStrong">v4.B</tspan></text>
+
+      <text x="1140" y="392" text-anchor="end" fill="#3E4B63" font-size="11" letter-spacing="1.5">/// HUD-01</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1198" height="418" rx="14" fill="none" stroke="#1B2434" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,40 @@
+<svg width="1200" height="130" viewBox="0 0 1200 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1200" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#05070B"/>
+      <stop offset="1" stop-color="#0A0E1A"/>
+    </linearGradient>
+    <pattern id="fgrid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#2DE1FC" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+    <clipPath id="fclip"><rect x="1" y="1" width="1198" height="128" rx="14"/></clipPath>
+    <style>
+      .mono { font-family:'JetBrains Mono','SF Mono',Consolas,monospace; }
+      @keyframes bar1 { 0%,100%{ height:10px; y:78px;} 50%{ height:34px; y:54px;} }
+      @keyframes bar2 { 0%,100%{ height:22px; y:66px;} 50%{ height:12px; y:76px;} }
+      @keyframes bar3 { 0%,100%{ height:16px; y:72px;} 50%{ height:30px; y:58px;} }
+      .b1 { animation: bar1 1.6s ease-in-out infinite; }
+      .b2 { animation: bar2 1.3s ease-in-out infinite; }
+      .b3 { animation: bar3 1.9s ease-in-out infinite; }
+      @keyframes pulseDot { 0%,100%{opacity:1;} 50%{opacity:0.35;} }
+      .statusDot { animation: pulseDot 1.8s ease-in-out infinite; }
+    </style>
+  </defs>
+  <g clip-path="url(#fclip)">
+    <rect width="1200" height="130" fill="url(#fbg)"/>
+    <rect width="1200" height="130" fill="url(#fgrid)"/>
+
+    <circle class="statusDot" cx="52" cy="65" r="5" fill="#34E89E"/>
+    <text x="70" y="60" class="mono" font-size="13" fill="#DCE6F5" letter-spacing="2">END OF TRANSMISSION</text>
+    <text x="70" y="80" class="mono" font-size="11.5" fill="#6B7690" letter-spacing="1">thanks for scrolling this far — say hi, i reply fast_</text>
+
+    <g fill="#2DE1FC" fill-opacity="0.8">
+      <rect class="b1" x="1080" width="8" rx="2"/>
+      <rect class="b2" x="1096" width="8" rx="2"/>
+      <rect class="b3" x="1112" width="8" rx="2"/>
+      <rect class="b1" x="1128" width="8" rx="2" style="animation-delay:.3s"/>
+    </g>
+    <text x="1140" y="100" class="mono" font-size="10" fill="#3E4B63" letter-spacing="1.5">SIGNAL OK</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="128" rx="14" fill="none" stroke="#1B2434" stroke-width="1.5"/>
+</svg>

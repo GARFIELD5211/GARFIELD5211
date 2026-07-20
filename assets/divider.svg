@@ -1,0 +1,15 @@
+<svg width="1200" height="28" viewBox="0 0 1200 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="dline" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2DE1FC" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#2DE1FC" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#2DE1FC" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      @keyframes pulse { 0%,100%{ opacity:0.4; } 50%{ opacity:1; } }
+      .node { animation: pulse 2.4s ease-in-out infinite; }
+    </style>
+  </defs>
+  <line x1="0" y1="14" x2="1200" y2="14" stroke="url(#dline)" stroke-width="1.2"/>
+  <rect class="node" x="596" y="10" width="8" height="8" fill="#2DE1FC" transform="rotate(45 600 14)"/>
+</svg>
