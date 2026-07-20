@@ -144,7 +144,7 @@ I like systems I can actually see working: a status LED, a live cursor, a robot 
 
 <a href="mailto:saadmalik5211@gmail.com"><img src="https://img.shields.io/badge/EMAIL-05070B?style=for-the-badge&logo=maildotru&logoColor=2DE1FC&color=0E1420"/></a>
 <a href="https://linkedin.com/in/saadmalik5211"><img src="https://img.shields.io/badge/LINKEDIN-05070B?style=for-the-badge&logo=linkedin&logoColor=2DE1FC&color=0E1420"/></a>
-<a href="https://yourportfolio.dev"><img src="https://img.shields.io/badge/PORTFOLIO-05070B?style=for-the-badge&logo=vercel&logoColor=EAF2FF&color=0E1420"/></a>
+<a href="https://saadmalik.netlify.app"><img src="https://img.shields.io/badge/PORTFOLIO-05070B?style=for-the-badge&logo=vercel&logoColor=EAF2FF&color=0E1420"/></a>
 
 <br/><br/>
 
@@ -153,18 +153,4 @@ I like systems I can actually see working: a status LED, a live cursor, a robot 
 </div>
 
 <br/>
-
-<details>
-<summary><sub><b>SETUP NOTES</b> — read before pushing (click to expand)</sub></summary>
-
-<br/>
-
-This whole thing is a special repo GitHub turns into your profile page: create a repository named **exactly** `GARFIELD5211/GARFIELD5211`, public, and drop these files in the root. Usernames are already wired up throughout — nothing to find/replace there.
-
-1. **Keep the `assets/` folder** — `hero-banner.svg`, `divider.svg`, and `footer-bar.svg` are referenced by relative path, so they need to live in the repo, not just on your machine.
-2. **Turn on the contribution snake** — commit `.github/workflows/snake.yml` (included), then in the repo go to **Settings → Actions → General → Workflow permissions** and enable *Read and write permissions*. It runs nightly and pushes the animated grid to an `output` branch, which is what the `contribution.feed` image points at.
-3. **Real email/links** — update the `mailto:` address and the LinkedIn / portfolio badge URLs at the bottom (the LinkedIn one is still a placeholder path, not your actual profile).
-4. Everything else (stats, streak, top languages, activity graph, typing ticker) is a live third-party badge — it updates on its own, no maintenance needed.
-
-</details>
 
