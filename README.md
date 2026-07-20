@@ -10,7 +10,7 @@
 
 <a href="#"><img src="https://img.shields.io/badge/STATUS-ONLINE-0A0E1A?style=for-the-badge&labelColor=05070B&color=34E89E" /></a>
 <a href="#"><img src="https://img.shields.io/badge/LOCATION-PAKISTAN-0A0E1A?style=for-the-badge&labelColor=05070B&color=2DE1FC" /></a>
-<a href="#"><img src="https://img.shields.io/badge/BUILD-CS_4--B-0A0E1A?style=for-the-badge&labelColor=05070B&color=FFB000" /></a>
+<a href="#"><img src="https://img.shields.io/badge/BUILD-CS-0A0E1A?style=for-the-badge&labelColor=05070B&color=FFB000" /></a>
 
 </div>
 
@@ -109,15 +109,15 @@ I like systems I can actually see working: a status LED, a live cursor, a robot 
 <table width="100%">
 <tr>
 <td width="50%" valign="top">
-<img src="https://github-readme-stats.vercel.app/api?username=GARFIELD5211&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=2DE1FC&icon_color=2DE1FC&text_color=B9C6DE&hide_rank=false" width="100%" alt="github stats" />
+<img src="https://github-readme-stats-psi-fawn-95.vercel.app/api?username=GARFIELD5211&show_icons=true&theme=transparent&hide_border=true&bg_color=00000000&title_color=2DE1FC&icon_color=2DE1FC&text_color=B9C6DE&hide_rank=false" width="100%" alt="github stats" />
 </td>
 <td width="50%" valign="top">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GARFIELD5211&layout=compact&theme=transparent&hide_border=true&bg_color=00000000&title_color=2DE1FC&text_color=B9C6DE" width="100%" alt="top languages" />
+<img src="https://github-readme-stats-psi-fawn-95.vercel.app/api/top-langs/?username=GARFIELD5211&layout=compact&theme=transparent&hide_border=true&bg_color=00000000&title_color=2DE1FC&text_color=B9C6DE" width="100%" alt="top languages" />
 </td>
 </tr>
 <tr>
 <td colspan="2" align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=GARFIELD5211&theme=transparent&hide_border=true&background=00000000&ring=2DE1FC&fire=FFB000&currStreakLabel=2DE1FC&sideLabels=B9C6DE&currStreakNum=EAF2FF&sideNums=EAF2FF&dates=6B7690" width="100%" alt="streak stats" />
+<img src="https://streak-stats.demolab.com/?user=GARFIELD5211&theme=transparent&hide_border=true&background=00000000&ring=2DE1FC&fire=FFB000&currStreakLabel=2DE1FC&sideLabels=B9C6DE&currStreakNum=EAF2FF&sideNums=EAF2FF&dates=6B7690" width="100%" alt="streak stats" />
 </td>
 </tr>
 <tr>
