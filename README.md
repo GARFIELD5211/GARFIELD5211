@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=900&color=2DE1FC&background=00000000&center=true&vCenter=true&width=760&lines=compiling+embedded+firmware...;shipping+shopify+storefronts+for+DTC+brands...;teaching+an+arduino+robot+to+make+facial+expressions...;building+sunflower+%E2%80%94+a+two-person+mental+wellness+app..." alt="status ticker" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=15&duration=2800&pause=900&color=2DE1FC&background=00000000&center=true&vCenter=true&width=760&lines=compiling+embedded+firmware...;shipping+shopify+storefronts+for+DTC+brands...;teaching+an+arduino+robot+to+make+facial+expressions...;Exam+Lens+an+Ai+tutor+for+students...." alt="status ticker" />
 
 <br/>
 
