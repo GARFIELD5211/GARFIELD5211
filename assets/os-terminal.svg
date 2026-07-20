@@ -15,7 +15,7 @@
       <text x="30" y="90" fill="#7B61FF">  _   _ ________   ___    _  _____ </text>
       <text x="30" y="105" fill="#7B61FF"> | \ | |  ____\ \ / / |  | |/ ____|</text>
       <text x="30" y="120" fill="#7B61FF"> |  \| | |__   \ V /| |  | | (___  </text>
-      <text x="30" y="135" fill="#7B61FF"> | . ` |  __|   > < | |  | |\___ \ </text>
+      <text x="30" y="135" fill="#7B61FF"> | . ` |  __|   &gt; &lt; | |  | |\___ \ </text>
       <text x="30" y="150" fill="#7B61FF"> | |\  | |____ / . \| |__| |____) |</text>
       <text x="30" y="165" fill="#7B61FF"> |_| \_|______/_/ \_\\____/|_____/ </text>
     </g>
@@ -23,7 +23,7 @@
     <!-- Typing sequence -->
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.1s" begin="1.2s" fill="freeze" />
-      <text x="30" y="210" fill="#00F7FF">> root@nexus:~$</text>
+      <text x="30" y="210" fill="#00F7FF">&gt; root@nexus:~$</text>
       <text x="160" y="210" fill="#888"> ./fetch_identity.sh</text>
     </g>
 
@@ -36,7 +36,7 @@
 
     <g opacity="0">
       <animate attributeName="opacity" values="0;1" dur="0.1s" begin="2.4s" fill="freeze" />
-      <text x="30" y="320" fill="#00F7FF">> root@nexus:~$</text>
+      <text x="30" y="320" fill="#00F7FF">&gt; root@nexus:~$</text>
       <text x="160" y="320" fill="#888"> tail -f /var/log/projects.log</text>
     </g>
 
