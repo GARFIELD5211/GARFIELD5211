@@ -88,7 +88,7 @@ I like systems I can actually see working: a status LED, a live cursor, a robot 
 <br/>
 
 **Web & Frontend** &nbsp;
-<img src="https://img.shields.io/badge/React-05070B?style=flat-square&logo=react&logoColor=61DAFB&color=0E1420"/>
+<img src="https://img.shields.io/badge/React-05070B?style=flat-square&logo=react&logoColor=61DAFB&color=0E1420"d
 <img src="https://img.shields.io/badge/Vite-05070B?style=flat-square&logo=vite&logoColor=FFB000&color=0E1420"/>
 <img src="https://img.shields.io/badge/Framer_Motion-05070B?style=flat-square&logo=framer&logoColor=C9BBFF&color=0E1420"/>
 <img src="https://img.shields.io/badge/Vercel-05070B?style=flat-square&logo=vercel&logoColor=EAF2FF&color=0E1420"/>
@@ -144,7 +144,7 @@ I like systems I can actually see working: a status LED, a live cursor, a robot 
 
 <a href="mailto:saadmalik5211@gmail.com"><img src="https://img.shields.io/badge/EMAIL-05070B?style=for-the-badge&logo=maildotru&logoColor=2DE1FC&color=0E1420"/></a>
 <a href="https://linkedin.com/in/saadmalik5211"><img src="https://img.shields.io/badge/LINKEDIN-05070B?style=for-the-badge&logo=linkedin&logoColor=2DE1FC&color=0E1420"/></a>
-<a href="https://saadmalik.netlify.app"><img src="https://img.shields.io/badge/PORTFOLIO-05070B?style=for-the-badge&logo=vercel&logoColor=EAF2FF&color=0E1420"/></a>
+<a href="https://saadmalik5211.tech/"><img src="https://img.shields.io/badge/PORTFOLIO-05070B?style=for-the-badge&logo=vercel&logoColor=EAF2FF&color=0E1420"/></a>
 
 <br/><br/>
 
